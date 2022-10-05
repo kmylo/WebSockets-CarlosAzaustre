@@ -1,0 +1,29 @@
+{
+  "name": "websockets-carlosazaustre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmylo/WebSockets-CarlosAzaustre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmylo/WebSockets-CarlosAzaustre/issues"
+  },
+  "homepage": "https://github.com/kmylo/WebSockets-CarlosAzaustre#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "proxy": "http://localhost:8080"
+}
